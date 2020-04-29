@@ -19,3 +19,7 @@ manifests:
       architecture: arm64
       os: linux
       variant: v8
+  - image: leszko/docker-multi-arch-example:ppc64le
+    platform:
+      architecture: ppc64le
+      os: linux
