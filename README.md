@@ -1,6 +1,6 @@
 # Docker multi-arch example
 
-TThis repository demonstrates how to create a multi-arch Docker image supporting multiple platforms, e.g. both `x86_64` and ARM, but building all images on an `x86_64` platform. It is primarily for personal use for reference on how to build manifests and how they work.
+This repository demonstrates how to create a multi-arch Docker image supporting multiple platforms, e.g. both `x86_64` and ARM, but building all images on an `x86_64` platform. It is primarily for personal use for reference on how to build manifests and how they work.
 
 This example also only relies on Docker Hub to build all images, including the ARM variants, and does not rely on separate build servers or environments to build non-amd64 images.
 
